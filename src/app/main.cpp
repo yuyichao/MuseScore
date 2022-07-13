@@ -87,7 +87,6 @@ int main(int argc, char** argv)
 
     app_init_qrc();
 
-    qputenv("QT_STYLE_OVERRIDE", "Fusion");
     qputenv("QML_DISABLE_DISK_CACHE", "true");
 
     // HACK: Workaround for crash #28840. This disables the incremental GC
